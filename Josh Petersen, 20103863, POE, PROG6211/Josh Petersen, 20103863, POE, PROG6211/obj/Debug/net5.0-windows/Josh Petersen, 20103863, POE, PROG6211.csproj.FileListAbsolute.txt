@@ -1,0 +1,24 @@
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.exe
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.deps.json
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.runtimeconfig.json
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.runtimeconfig.dev.json
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.dll
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\ref\Josh Petersen, 20103863, POE, PROG6211.dll
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\bin\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.pdb
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.csprojAssemblyReference.cache
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Window1.g.cs
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\App.g.cs
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211_MarkupCompile.cache
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211_MarkupCompile.lref
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Window1.baml
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.g.resources
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.GeneratedMSBuildEditorConfig.editorconfig
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.AssemblyInfoInputs.cache
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.AssemblyInfo.cs
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.csproj.CoreCompileInputs.cache
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.dll
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\ref\Josh Petersen, 20103863, POE, PROG6211.dll
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.pdb
+E:\Josh Petersen, 20103863, POE, PROG6211\Josh Petersen, 20103863, POE, PROG6211\obj\Debug\net5.0-windows\Josh Petersen, 20103863, POE, PROG6211.genruntimeconfig.cache

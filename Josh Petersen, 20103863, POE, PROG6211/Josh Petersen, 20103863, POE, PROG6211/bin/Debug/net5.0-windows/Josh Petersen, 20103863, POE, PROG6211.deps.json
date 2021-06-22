@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Josh Petersen, 20103863, POE, PROG6211/1.0.0": {
+        "runtime": {
+          "Josh Petersen, 20103863, POE, PROG6211.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Josh Petersen, 20103863, POE, PROG6211/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
