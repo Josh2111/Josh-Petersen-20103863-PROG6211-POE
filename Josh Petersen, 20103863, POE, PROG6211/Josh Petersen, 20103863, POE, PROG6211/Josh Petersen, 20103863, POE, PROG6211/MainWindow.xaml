@@ -1,0 +1,193 @@
+﻿<Window x:Class="Josh_Petersen__20103863__POE__PROG6211.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Josh_Petersen__20103863__POE__PROG6211"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="750">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Created and Designed by Pink Flamingo">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FF17D8B5" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF99B4D1">
+                    <Label Content="Welcome to our Budget Application" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" Width="204"/>
+                    <Label Content="Please go to the next tab page to enter your information" HorizontalAlignment="Center" Margin="0,88,0,0" VerticalAlignment="Top" Width="312"/>
+                    <Label Content="After entering your information please head to the Vehicle Repay Tab!" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" Width="380"/>
+                    <Label Content="Created and Designed by Pink Flamingo" HorizontalAlignment="Left" Margin="38,327,0,0" VerticalAlignment="Top" Width="227"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Information">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FF17D8B5" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF99B4D1">
+                    <Label x:Name="lblGroceries" Content="Groceries" HorizontalAlignment="Left" Margin="58,132,0,0" VerticalAlignment="Top" Width="142"/>
+                    <Label x:Name="lblTax" Content="Monthly Tax:" HorizontalAlignment="Left" Margin="59,71,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblMonthIncome" Content="Gross Monthly Income:" HorizontalAlignment="Left" Margin="59,40,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblWater_Lights" Content="Water and Lights:" HorizontalAlignment="Left" Margin="59,163,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblCellphone" Content="Cellphone" HorizontalAlignment="Left" Margin="59,225,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblOExpens" Content="Other Expenses:" HorizontalAlignment="Left" Margin="59,256,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblTravel" Content="Travel Costs:" HorizontalAlignment="Left" Margin="59,194,0,0" VerticalAlignment="Top" Width="142"/>
+                    <Label Content="Total Expenses:" HorizontalAlignment="Left" Margin="59,299,0,0" VerticalAlignment="Top" Width="141"/>
+                    <TextBox x:Name="txtIncome" HorizontalAlignment="Left" Margin="205,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtTax" HorizontalAlignment="Left" Margin="206,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtGroceries" HorizontalAlignment="Left" Margin="206,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtWater" HorizontalAlignment="Left" Margin="206,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtTravel" HorizontalAlignment="Left" Margin="206,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtCell" HorizontalAlignment="Left" Margin="206,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtOther" HorizontalAlignment="Left" Margin="206,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtTotal" HorizontalAlignment="Left" Margin="206,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" IsEnabled="False" Background="White"/>
+                    <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="226,353,0,0" VerticalAlignment="Top" Width="45" Background="RosyBrown" Click="btnClear_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="300,353,0,0" VerticalAlignment="Top" Width="51" Background="RosyBrown" Click="btnSubmit_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Label x:Name="lblMonthIncome_Copy" Content="Monthly Budget" HorizontalAlignment="Left" Margin="234,10,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+                    <Label x:Name="lblMonthIncome_Copy1" Content="Monthly Expenses:" HorizontalAlignment="Left" Margin="231,105,0,0" VerticalAlignment="Top" Width="116" FontWeight="Bold"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Vehicle Repay" HorizontalAlignment="Center" Height="20" VerticalAlignment="Top" Width="93" Margin="0,-1,0,0">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FF17D8B5" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF99B4D1">
+                    <Label x:Name="lblMake" Content="Vehicle Make:" HorizontalAlignment="Left" Margin="149,65,0,0" VerticalAlignment="Top" Width="142"/>
+                    <Label x:Name="lblModel" Content="Vehicle Model:" HorizontalAlignment="Left" Margin="150,96,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblVehDeposit" Content="Vehicle Deposit:" HorizontalAlignment="Left" Margin="150,158,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblVehInterest" Content="Vehicle Interest:" HorizontalAlignment="Left" Margin="150,189,0,0" VerticalAlignment="Top" Width="141"/>
+                    <Label x:Name="lblVehPurPrice" Content="Vehicle Purchase Price:" HorizontalAlignment="Left" Margin="150,127,0,0" VerticalAlignment="Top" Width="142"/>
+                    <Label x:Name="lblVehInsurance" Content="Vehicle Insurance:" HorizontalAlignment="Left" Margin="150,220,0,0" VerticalAlignment="Top" Width="141"/>
+                    <TextBox x:Name="txtMake" HorizontalAlignment="Left" Margin="297,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtModel" HorizontalAlignment="Left" Margin="297,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtVehiclePurPrice" HorizontalAlignment="Left" Margin="297,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtVehicleDeposit" HorizontalAlignment="Left" Margin="297,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtVehicleInterest" HorizontalAlignment="Left" Margin="297,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtInsurance" HorizontalAlignment="Left" Margin="297,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Background="White"/>
+                    <Label x:Name="lblMonthIncome_Copy2" Content="Vehicle Repay" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+                    <Button x:Name="btnVehClear" Content="Clear" HorizontalAlignment="Left" Margin="306,273,0,0" VerticalAlignment="Top" Width="45" Background="RosyBrown" Click="btnVehClear_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Button x:Name="btnVehSubmit" Content="Submit" HorizontalAlignment="Left" Margin="380,273,0,0" VerticalAlignment="Top" Width="51" Background="RosyBrown" Click="btnVehSubmit_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Renting or Buying Property" HorizontalAlignment="Center" Height="20" VerticalAlignment="Top" Width="162" Margin="0,-1,0,0">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FF17D8B5" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF99B4D1">
+                    <ComboBox x:Name="cmbOption" HorizontalAlignment="Left" Margin="287,51,0,0" VerticalAlignment="Top" Width="130" SelectionChanged="cmbOption_SelectionChanged">
+                        <ComboBoxItem Content="Renting"/>
+                        <ComboBoxItem Content="Buying"/>
+                    </ComboBox>
+                    <Label x:Name="lblMonthIncome_Copy3" Content="Renting or Buying Property" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="158" FontWeight="Bold"/>
+                    <Canvas x:Name="canvasRent" Height="98" VerticalAlignment="Top" Margin="80,90,177,0" Background="Linen">
+                        <Label x:Name="lblGroceries_Copy1" Content="Monthly Rent Amount:" Width="140" Canvas.Left="30" Canvas.Top="40"/>
+                        <TextBox x:Name="txtRentAmt" TextWrapping="Wrap" Width="129" Canvas.Left="180" Canvas.Top="48"/>
+                        <Label x:Name="lblGroceries_Copy4" Content="Renting" Width="72" Canvas.Left="134" Canvas.Top="9" FontWeight="Bold"/>
+                    </Canvas>
+                    <Canvas x:Name="canvasBuying" Height="200" VerticalAlignment="Top" Margin="81,90,177,0" Background="Linen">
+                        <Label x:Name="lblGroceries_Copy5" Content="Buying" Width="64" Canvas.Left="132" Canvas.Top="16" FontWeight="Bold"/>
+                        <Label x:Name="lblPurAmount" Content="Purchase Amount:" Width="111" Canvas.Left="40" Canvas.Top="43"/>
+                        <TextBox x:Name="txtPurAmount" TextWrapping="Wrap" Width="122" Canvas.Left="186" Canvas.Top="47"/>
+                        <Label x:Name="lblDeposit" Content="Total Deposit:" Width="98" Canvas.Left="40" Canvas.Top="74"/>
+                        <TextBox x:Name="txtDeposit" TextWrapping="Wrap" Width="123" Canvas.Left="186" Canvas.Top="74"/>
+                        <Label x:Name="lblRate" Content="Interest Rate (%):" Width="111" Canvas.Left="40" Canvas.Top="107"/>
+                        <TextBox x:Name="txtRate" TextWrapping="Wrap" Width="122" Canvas.Left="186" Canvas.Top="111"/>
+                        <Label x:Name="lblRepay" Content="Months to Repay:" Width="111" Canvas.Left="40" Canvas.Top="138"/>
+                        <TextBox x:Name="txtRepay" TextWrapping="Wrap" Width="123" Canvas.Left="186" Canvas.Top="138"/>
+                    </Canvas>
+                    <Label x:Name="lblGroceries_Copy3" Content="Please choose an option:" Margin="128,47,322,333"/>
+                    <Button x:Name="btnRentClear" Content="Clear" HorizontalAlignment="Left" Margin="203,332,0,0" VerticalAlignment="Top" Width="46" Background="RosyBrown" Click="btnRentClear_Click_1">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Button x:Name="btnRentSubmit" Content="Submit" HorizontalAlignment="Left" Margin="287,332,0,0" VerticalAlignment="Top" Width="52" Background="RosyBrown" Click="btnRentSubmit_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Savings" HorizontalAlignment="Center" Height="20" VerticalAlignment="Center" Width="150">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FF17D8B5" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF99B4D1">
+                    <Label x:Name="lblSaveAmt" Content="Amount to save:" HorizontalAlignment="Left" Margin="149,65,0,0" VerticalAlignment="Top" Width="142"/>
+                    <Label x:Name="lblMonths" Content="Months:" HorizontalAlignment="Left" Margin="149,131,0,0" VerticalAlignment="Top" Width="141" Height="27"/>
+                    <Label x:Name="lblReason" Content="Reason for saving:" HorizontalAlignment="Left" Margin="150,163,0,0" VerticalAlignment="Top" Width="142"/>
+                    <TextBox x:Name="txtSaveAmt" HorizontalAlignment="Left" Margin="297,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtMonths" HorizontalAlignment="Left" Margin="297,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <TextBox x:Name="txtReason" HorizontalAlignment="Left" Margin="297,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                    <Button x:Name="btnSaveClear" Content="Clear" HorizontalAlignment="Left" Margin="213,203,0,0" VerticalAlignment="Top" Width="46" Background="RosyBrown" Click="btnSaveClear_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Button x:Name="btnSaveSubmit" Content="Submit" HorizontalAlignment="Left" Margin="320,203,0,0" VerticalAlignment="Top" Width="52" Background="RosyBrown" Click="Button_Click">
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF2800FF" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Label x:Name="lblSaveDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="149,99,0,0" VerticalAlignment="Top" Width="141" Height="27"/>
+                    <TextBox x:Name="txtSaveDeposit" HorizontalAlignment="Left" Margin="297,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
