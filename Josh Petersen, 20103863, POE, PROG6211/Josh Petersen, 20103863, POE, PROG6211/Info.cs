@@ -136,6 +136,7 @@ namespace Josh_Petersen__20103863__POE__PROG6211
             return ((getPurchasePrice() - getTotalDeposit()) * (1 + (getInterest() / 100) * (getRepayMonths() / 12))) / getRepayMonths();
         }
 
+        //calculating monthly savings
         public double calculateMonthlySaving()
         {
             return ((getSaveAmt() - getSaveDeposit()) * (1 + (getInterest() / 100) * (getSaveMonths() / 12))) / getSaveMonths();
@@ -149,12 +150,12 @@ namespace Josh_Petersen__20103863__POE__PROG6211
         //getting the monthly income left after expenses when buying home loan and car loan
         public double getMonthlyAvailableBuying()
         {
-            return (getGrossIncome() - (getMonthlyTax() + getTotalExpenses() + calculateMonthlyRepay() + calculateVehicleCost()));
+            return (getGrossIncome() - (getMonthlyTax() + getTotalExpenses() + calculateMonthlyRepay() + calculateVehicleCost() + getVehicleDeposit()));
         }
         //gets monthly income left after expenses and applying for car loan
         public double getMonthlyAvailableVehicle()
         {
-            return (getGrossIncome() - (getMonthlyTax() + getTotalExpenses() + getMonthlyRent() + calculateVehicleCost()));
+            return (getGrossIncome() - (getMonthlyTax() + getTotalExpenses() + getMonthlyRent() + calculateVehicleCost() + getVehicleDeposit()));
         }
         #endregion
     }
